@@ -391,7 +391,7 @@ header {
     /* === Search Box === {{{2 */
     #search-container {
 	    position: relative;
-	    top: 13px;
+	    top: -65px;
 	    right: 50px;
 	    float: right;
 	    padding: 20px;
