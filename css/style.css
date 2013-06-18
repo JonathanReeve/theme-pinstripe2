@@ -616,7 +616,10 @@ header {
     nav.top ul { 
 	    margin-left: 10px; /* needed to correct the left-shifting of the box-shadow fix */
     }
-
+    nav.top li li { /* child items (simple pages, probably) */ 
+	    display: none; /* disabling this for now until I figure out how to do dropdowns */ 
+    } 
+	    
     nav.top li, #footer .navigation li { 
 	display: inline;
     }	    
