@@ -383,7 +383,7 @@ body {
 }
 
 /* == Header == {{{1 */
-#header {
+header {
 	background: url('../images/flower.png') no-repeat right;
 	padding-top: 20px;
 	height: 100px;
