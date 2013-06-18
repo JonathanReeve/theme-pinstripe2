@@ -602,7 +602,7 @@ header {
     #pagination-bottom {}
 
     /* Navigation {{{2 */
-    #primary-nav {
+    nav.top {
 	    width: 955px; /* makes this bigger than the wrap so that the side box-shadows don't display */
 	    margin-left: -8px; /* needed to remove the left box-shadow */
 	    padding: 10px;
@@ -612,26 +612,26 @@ header {
 	    box-shadow: inset 0 0 2px 2px #222; 
     }
 
-    #primary-nav ul { 
+    nav.top ul { 
 	    margin-left: 10px; /* needed to correct the left-shifting of the box-shadow fix */
     }
 
-    #primary-nav li, #footer .navigation li { 
+    nav.top li, #footer .navigation li { 
 	display: inline;
     }	    
-    #primary-nav li a, #footer .navigation li a { 
+    nav.top li a, #footer .navigation li a { 
 	color: #bbb;
 	padding: 10px 13px;
 	font-variant: small-caps;
 	font-size: 20px;
     }
-    #primary-nav li a:hover { 
+    nav.top li a:hover { 
 	color: #ddd;
 	background-image: url('../images/light.png');
 	background-position: center 50%;
 	background-repeat: no-repeat;
     }
-    #primary-nav .nav-collection-tree, #footer .nav-collection-tree a { 
+    nav.top .nav-collection-tree, #footer .nav-collection-tree a { 
 	    display: none; /* disabling primary nav area button "Collection Tree" because putting it as a secondary nav item in Browse Collections view */
     }
     #secondary-nav {
