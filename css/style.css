@@ -524,6 +524,7 @@ header {
     #featured-exhibit img.exhibitImage, #randomFeaturedItemImage img { 
 	    float: left;
 	    margin: 0px 10px 10px 0px;
+	    width: 200px; /* temporary fix for featured exhibit preview images. probably shouldn't be handled like this, but handled instead in image resize. */ 
     }
     #featured-exhibit img.exhibitImage, #randomFeaturedItemImage img, #recent-items .item-img {
 	    border: 8px solid white;
