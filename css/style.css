@@ -402,6 +402,8 @@ header {
 	    -moz-border-top-left-radius: 20px;
 	    border-top-right-radius: 20px;
 	    border-top-left-radius: 20px;
+	    display: none; /* disabling this for now */  
+	    /* FIXME: figure out what to do about the collision here which wraps the nav items */ 
     }	
     	#submit_search { 
 		display: none; /* Getting rid of search button. User can simply press <enter> */
