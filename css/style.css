@@ -651,18 +651,18 @@ header {
     nav.top .nav-collection-tree, #footer .nav-collection-tree a { 
 	    display: none; /* disabling primary nav area button "Collection Tree" because putting it as a secondary nav item in Browse Collections view */
     }
-    .secondary-nav {
+    #secondary-nav, .secondary-nav {
 	    margin-bottom: 15px; 
 	    margin-left: 10px;
 	    display: inline-block; /* to get the secondary nav to line up with the pagination links */
 	    vertical-align: top;
     }
     				/* tabbed secondary nav adapted from Berlin theme */
-				.secondary-nav li, #sort-links li {
+				#secondary-nav li, .secondary-nav li, #sort-links li {
 					display: inline;  
 					padding:0.5em 0;
 				}
-				.secondary-nav a, .secondary-nav li.nav-browse-all a, #sort-links a {
+				#secondary-nav a, .secondary-nav a, .secondary-nav li.nav-browse-all a, #sort-links a {
 					padding: 6px 10px;
 					margin-right:1px;
 					color:#bbb;
@@ -671,10 +671,10 @@ header {
 					-moz-border-radius: 5px;
 					border-radius: 5px;
 				}
-				.secondary-nav li.current a, #sort-links li.current a {
+				#secondary-nav li.current a, .secondary-nav li.current a, #sort-links li.current a {
 					background-color: #666;
 				}					
-				.secondary-nav a:hover, #sort-links a:hover { 
+				#secondary-nav a:hover, .secondary-nav a:hover, #sort-links a:hover { 
 					background-color: #555; 
 				}
 				#collections.browse .nav-browse-map { 
