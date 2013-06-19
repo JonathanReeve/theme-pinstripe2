@@ -658,11 +658,11 @@ header {
 	    vertical-align: top;
     }
     				/* tabbed secondary nav adapted from Berlin theme */
-				.secondary-nav li {
+				.secondary-nav li, #sort-links li {
 					display: inline;  
 					padding:0.5em 0;
 				}
-				.secondary-nav a, .secondary-nav li.nav-browse-all a {
+				.secondary-nav a, .secondary-nav li.nav-browse-all a, #sort-links a {
 					padding: 6px 10px;
 					margin-right:1px;
 					color:#bbb;
@@ -671,15 +671,25 @@ header {
 					-moz-border-radius: 5px;
 					border-radius: 5px;
 				}
-				.secondary-nav li.current a {
+				.secondary-nav li.current a, #sort-links li.current a {
 					background-color: #666;
 				}					
-				.secondary-nav a:hover { 
+				.secondary-nav a:hover, #sort-links a:hover { 
 					background-color: #555; 
 				}
 				#collections.browse .nav-browse-map { 
 					display: none; /* Browse Collections view shouldn't have Browse Map--that takes you to the map showing items, not collections */
 				}
+    #sort-links {  /* this is the whole div */ 
+	    display: inline; 
+	    margin-left: 10px; 
+    } 
+    #sort-links ul { 
+	    display: inline; 
+    } 
+    #sort-links .sort-label { 
+	    font-size: 2em; 
+    } 
 
     /* Advanced Search */
     #advanced-search-form {}
