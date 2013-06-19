@@ -157,6 +157,9 @@ body {
         /* Navigation Classes*/
         .navigation {}
 
+	select.mobile { 
+		display: none; /* turning off this drop-down menu for now, since responsive design will be very time-consuming */ 
+	} 
         /* Pagination Classes */
 	.pagination { 
 		display: inline-block; /* to get the secondary nav to line up with the pagination links */
@@ -618,8 +621,16 @@ header {
     nav.top ul { 
 	    margin-left: 10px; /* needed to correct the left-shifting of the box-shadow fix */
     }
-    nav.top li li { /* child items (simple pages, probably) */ 
+    nav.top li ul { /* child items (simple pages, probably) */ 
 	    display: none; /* disabling this for now until I figure out how to do dropdowns */ 
+	   /* position: relative; 
+	    visibility: hidden; */ 
+    } 
+    nav.top li ul li { 
+	    display: block; /* drop down menu */ 
+    } 
+    nav.top ul li:hover ul { 
+/*	    visibility: visible; /* make it appear */ 
     } 
 	    
     nav.top li, #footer .navigation li { 
