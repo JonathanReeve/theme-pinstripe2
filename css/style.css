@@ -218,6 +218,12 @@ body {
 	ul.item-pagination.navigation li a:hover { 
 		background-color: #444; 
 	}
+	.pagination input { 
+		width: 1.5em; /* temporary fix for giant text entry box */ 
+	} 
+	.pagination form { 
+		display: inline; /* makes pagination controls line up */  
+	} 
 
         .next {}
         .previous {}
@@ -688,7 +694,7 @@ header {
 	    display: inline; 
     } 
     #sort-links .sort-label { 
-	    font-size: 2em; 
+/*	    font-size: 2em;  This is the culprit! Making this bigger seems to throw everything off. */ 
     } 
 
     /* Advanced Search */
